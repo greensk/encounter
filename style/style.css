@@ -1,0 +1,23 @@
+.encounterSwitcher{
+	display: inline-block;
+	height: 20px;
+	width: 10px;
+	position: relative;
+	top: 3px;
+	left: 0px;
+}
+.encounterSwitcher div{
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	padding: 0px;
+	margin: 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.encounterSwitcherUp{
+	background-image: url('up.gif')
+}
+.encounterSwitcherDown{
+	background-image: url('down.gif')
+}
